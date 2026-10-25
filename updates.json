@@ -1,0 +1,31 @@
+{
+ "generated": "2026-10-25T17:50:01.684Z",
+ "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
+ "app": {
+  "version": "0.11.3",
+  "date": "2026-10-25",
+  "notes": [
+   "Test release for the update system: no changes except the version number."
+  ],
+  "win": {
+   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v0.11.3/Home-and-Hearth-Baker-Setup-0.11.3-2026-10-25-1347.exe",
+   "sha256": "ae628d3d8bc6884ebe33d4ed703fc7cddb1fb8c85f7597259b77b89830bbbfcd",
+   "size": 138301761
+  }
+ },
+ "rules": {
+  "files": [
+   {
+    "path": "states/IN.json",
+    "name": "Indiana",
+    "rules_version": 1,
+    "date": "2026-10-25",
+    "changes": [
+     "Test of the rules update system; no changes to Indiana's rules"
+    ],
+    "url": "https://raw.githubusercontent.com/Taupublishing/HomeandHearth-updates/main/IN.json",
+    "sha256": "f65e8eaa6beae01a1a24fc0d8b37a9b8ec36d349152b2b5afd1d74965af89c67"
+   }
+  ]
+ }
+}
