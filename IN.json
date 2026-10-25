@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1-draft",
+  "rules_version": 1,
+  "state": "Indiana",
+  "state_code": "IN",
+  "last_checked": "2026-10-24",
+  "status": "reviewed by Jeff Campbell 2026-10-24; open questions pending",
+  "routes": [
+    {
+      "id": "in-hbv",
+      "name": "Home-based vendor",
+      "law_citation": "IC 16-42-5.3",
+      "enacted_by": "HEA 1149 (2022)",
+      "effective_date": "2022-07-01",
+      "where_food_is_made": "Primary residence",
+      "sales_cap_usd": null,
+      "buyers": "End consumers only; not for resale",
+      "allowed_foods": {
+        "rule": "Non-TCS foods only (no time/temperature control needed for safety)",
+        "examples": [
+          "Breads, bagels, scones, sourdough, quick breads",
+          "Cookies, muffins",
+          "High-acid fruit pies, pecan pie",
+          "Cupcakes and cakes with commercially prepared shelf-stable frosting or a lab-tested recipe",
+          "Candy and confections",
+          "Jams and jellies from high-acid fruit, full-sugar",
+          "Honey, molasses, sorghum, maple syrup",
+          "Tree nuts, legumes, roasted coffee beans"
+        ]
+      },
+      "prohibited_foods": [
+        "Cheesecake",
+        "Cream and custard pies",
+        "Dairy products other than commercial dairy used as an ingredient",
+        "Meat, poultry, aquatic animals",
+        "Pickled, acidified, or fermented foods",
+        "Pepper jelly, low-acid jams",
+        "Home-canned vegetables",
+        "Homemade vanilla extract",
+        "Pet treats",
+        "Repackaged bulk foods"
+      ],
+      "restricted_needs_testing": [
+        "Pumpkin pie",
+        "Meringue",
+        "Cream cheese frosting (contact local health department)"
+      ],
+      "sales_channels": {
+        "in_person": "Farmers markets, roadside stands, events that permit HBVs",
+        "phone_online": "Allowed; label must also be shown on the vendor's web page",
+        "delivery": "May ship or deliver from home within Indiana: in person, mail, or carrier, tamper-evident packaging",
+        "out_of_state": false,
+        "wholesale_or_stores": false,
+        "consignment": "Only if the vendor is present at the time of sale",
+        "seller_must_be_producer": true
+      },
+      "record_keeping": "Keep each end consumer's shipping or delivery address for at least 1 year",
+      "packaging": "Sealed, tamper-evident packaging for shipped products",
+      "label": {
+        "statement": "This product is home produced and processed and the production area has not been inspected by the state department of health.",
+        "statement_suffix": "NOT FOR RESALE",
+        "statement_min_point_size": 10,
+        "required_items": [
+          "producer_name",
+          "primary_residence_address_no_po_box",
+          "common_name",
+          "ingredients_by_weight_desc",
+          "net_weight_volume_or_count",
+          "date_processed",
+          "statement"
+        ],
+        "allergens": "encouraged",
+        "each_item_labeled": true,
+        "notes": "Exact statement wording to be confirmed against IC 16-42-5.3 text"
+      },
+      "permit_or_registration": null,
+      "training": {
+        "required": true,
+        "type": "Food handler certificate from an ANSI-accredited issuer",
+        "example": "ServSafe Food Handler",
+        "renewal_years": 3,
+        "copy_to_county_health_department": "unconfirmed (2025 handbook says yes)"
+      },
+      "inspections": "Only after a complaint or suspected health hazard",
+      "local_rules": "Local units may not require licensing, certification, or inspection; zoning may apply"
+    },
+    {
+      "id": "in-homestead",
+      "name": "Homestead vendor",
+      "law_citation": "IC 16-42-5.4",
+      "enacted_by": "HEA 1424 (2026)",
+      "effective_date": "2026-07-01",
+      "where_food_is_made": "Own property: primary residence or agricultural land, owned or leased",
+      "sales_cap_usd": 1500000,
+      "buyers": "End consumers only",
+      "allowed_foods": {
+        "rule": "Listed categories only, primarily derived from the property; app policy: no foods that need refrigeration (non-TCS only)",
+        "examples": [
+          "Prepared foods and baked goods (some subject to federal rules)",
+          "Candy",
+          "Produce",
+          "Natural sweeteners",
+          "Fruit spreads",
+          "Meat raised on the property and processed under IC 15-17-5"
+        ]
+      },
+      "prohibited_foods": [
+        "Foods that need refrigeration (app policy), e.g. cheesecake, cream and custard pies"
+      ],
+      "restricted_needs_testing": [],
+      "sales_channels": {
+        "in_person": "From the property or at a farmers market",
+        "phone_online": "Orders by phone or online from Indiana buyers (app policy)",
+        "delivery": "May ship or deliver from home within Indiana, sealed packages; food handler certificate required to ship or deliver",
+        "out_of_state": false,
+        "wholesale_or_stores": false
+      },
+      "packaging": "Package on the property before transport; no cutting, serving, reheating, or repackaging after",
+      "label": {
+        "statement": "This product was produced by a homestead vendor or the owner of a small farm that is exempt from government licensing and inspection.",
+        "statement_min_point_size": 10,
+        "required_items": [
+          "producer_name",
+          "address",
+          "product_description",
+          "ingredients_by_weight_desc",
+          "allergen_cross_contact_description",
+          "statement"
+        ],
+        "allergens": "required",
+        "unpackaged_items": "A sign may replace a label"
+      },
+      "permit_or_registration": null,
+      "training": {
+        "required": "Only to ship or deliver",
+        "type": "Food handler certificate from an ANSI-accredited issuer",
+        "renewal_years": 3
+      },
+      "inspections": "Only after a foodborne illness complaint",
+      "local_rules": "State and local agencies may not be more restrictive than the law; farmers markets may set their own rules"
+    }
+  ],
+  "llc": {
+    "office": "Indiana Secretary of State (INBiz)",
+    "url": "https://inbiz.in.gov/start-business",
+    "note": "Forms, fees and ongoing reports change; the app links to the state's office rather than listing them. See rules/llc-basics.json for what bakers typically need."
+  },
+  "sources": [
+    {
+      "title": "IDOH guidance on homestead and small farm food sales (2026-05-26)",
+      "url": "https://www.in.gov/counties/floyd/health-department/files/Indiana-Homestead-and-Small-Farm-Food-Processor-Guidance.pdf"
+    },
+    {
+      "title": "HEA 1424 (2026) enrolled text",
+      "url": "https://iga.in.gov/pdf-documents/124/2026/house/bills/HB1424/HB1424.05.ENRS.pdf"
+    },
+    {
+      "title": "Indiana Home-Based Vendor Handbook (Spring 2025)",
+      "url": "https://www.in.gov/localhealth/morgancounty/files/2025-IN-HBV-Handbook.pdf"
+    },
+    {
+      "title": "Home-Based Vendors FAQ",
+      "url": "https://www.in.gov/localhealth/putnamcounty/files/Home-Based-Vendors-FAQ-FINAL.pdf"
+    },
+    {
+      "title": "Purdue Food Science: Home-Based Vendors",
+      "url": "https://ag.purdue.edu/department/foodsci/home-based-vendors.html"
+    },
+    {
+      "title": "Articles of Organization, State Form 49459",
+      "url": "https://forms.in.gov/Download.aspx?id=16989"
+    },
+    {
+      "title": "INBiz: Start a Business",
+      "url": "https://inbiz.in.gov/start-business"
+    },
+    {
+      "title": "INBiz: Business Entity Report",
+      "url": "https://inbiz.in.gov/business-filings/business-entityreport"
+    }
+  ],
+  "app_policy": {
+    "decided_by": "Jeff Campbell",
+    "date": "2026-10-24",
+    "rules": [
+      "No foods that need refrigeration on either route",
+      "Sales to buyers in Indiana only",
+      "Bakers may ship or deliver from home within Indiana"
+    ]
+  }
+}
