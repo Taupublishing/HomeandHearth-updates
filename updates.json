@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-25T17:50:01.684Z",
+ "generated": "2026-10-29T15:58:45.206Z",
  "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
  "app": {
-  "version": "0.11.3",
-  "date": "2026-10-25",
+  "version": "0.23.14",
+  "date": "2026-10-29",
   "notes": [
-   "Test release for the update system: no changes except the version number."
+   "Updates are published faster: new versions reach Check for updates as soon as they're ready."
   ],
   "win": {
-   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v0.11.3/Home-and-Hearth-Baker-Setup-0.11.3-2026-10-25-1347.exe",
-   "sha256": "ae628d3d8bc6884ebe33d4ed703fc7cddb1fb8c85f7597259b77b89830bbbfcd",
-   "size": 138301761
+   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v0.23.14-beta/Home-and-Hearth-Baker-Setup.exe",
+   "sha256": "d6bfaf7801ed8162220b16b18e272c5df8ecc96dfe01ab077ec5421a52196d70",
+   "size": 139177432
   }
  },
  "rules": {
