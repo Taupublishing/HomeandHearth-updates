@@ -1,16 +1,19 @@
 {
- "generated": "2026-10-29T15:58:45.206Z",
+ "generated": "2026-11-02T13:21:29.902Z",
  "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
  "app": {
-  "version": "0.23.14",
-  "date": "2026-10-29",
+  "version": "1.0.0",
+  "date": "2026-11-02",
   "notes": [
-   "Updates are published faster: new versions reach Check for updates as soon as they're ready."
+   "Version 1.0: the beta labels are gone. This is the finished program.",
+   "Licensed for a one-time fee: the license terms, Settings and Help now say \"license\" throughout.",
+   "Recipe and receipt photos: the screens explain how to send photos from your phone to your computer first.",
+   "Copyright updated to 2026–2027."
   ],
   "win": {
-   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v0.23.14-beta/Home-and-Hearth-Baker-Setup.exe",
-   "sha256": "d6bfaf7801ed8162220b16b18e272c5df8ecc96dfe01ab077ec5421a52196d70",
-   "size": 139177432
+   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.0/Home-and-Hearth-Baker-Setup.exe",
+   "sha256": "bdb5106933bafb4ece98b03c0b760284ba65e72432a8adc9ba7702f927ff4b1d",
+   "size": 139184672
   }
  },
  "rules": {
