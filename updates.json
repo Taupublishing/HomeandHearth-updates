@@ -1,20 +1,16 @@
 {
- "generated": "2026-11-03T14:31:11.626Z",
+ "generated": "2026-11-06T21:03:00.870Z",
  "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
  "app": {
-  "version": "1.0.1",
-  "date": "2026-11-03",
+  "version": "1.0.2",
+  "date": "2026-11-06",
   "notes": [
-   "State regulations checked again for all 50 states on November 3, 2026.",
-   "Oklahoma: the new Homemade Food Freedom Act rules in effect November 1, 2026 ($250,000 yearly limit; label wording confirmed by the Oklahoma Department of Agriculture).",
-   "West Virginia: the new permit rule's label wording, lot codes and training for potentially hazardous foods.",
-   "Colorado: shows the rules in effect now; the new law's changes start January 1, 2027 and will arrive in an update then.",
-   "Updated official links and notes for several states."
+   "iPhone photos (HEIC) now work: recipe pages, receipts, your logo and photos sent from your phone are converted automatically as you add them."
   ],
   "win": {
-   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.1/Home-and-Hearth-Baker-Setup.exe",
-   "sha256": "8b9832ff7b1a6db4771c6b65ae18399c7c206c76f00a49d5c5067300c8eccc1e",
-   "size": 139184000
+   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.2/Home-and-Hearth-Baker-Setup.exe",
+   "sha256": "11c22cae4ca736314a2634de903b03bf2f8d678bf1a58c7edf822b0eee037fb8",
+   "size": 141257568
   }
  },
  "rules": {
