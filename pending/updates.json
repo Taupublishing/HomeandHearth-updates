@@ -1,21 +1,16 @@
 {
- "generated": "2026-11-07T13:40:02.441Z",
+ "generated": "2026-11-07T14:19:02.001Z",
  "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
  "app": {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "date": "2026-11-07",
   "notes": [
-   "Home and Hearth Baker now runs on Mac computers too (macOS 12 or newer). Your license covers up to two computers, Windows or Mac."
+   "Backups: choose a folder in your own iCloud Drive, OneDrive, Dropbox or Google Drive, and a copy goes there every day or week. Your data stays yours; we never see or keep it."
   ],
   "win": {
-   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.3/Home-and-Hearth-Baker-Setup.exe",
-   "sha256": "80ff8a863ad3661a0176731c0efc36189a3b66fc4e5d7c72482865dcafe549a7",
-   "size": 141255656
-  },
-  "mac": {
-   "url": "https://downloads.homeandhearthbaker.com/1.0.3/Home-and-Hearth-Baker.dmg",
-   "sha256": "f6e15d3f896e1d4ddc12fc4b784e0a6aab499c2183ff80e82901cd10a2a5b347",
-   "size": 252271846
+   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.4/Home-and-Hearth-Baker-Setup.exe",
+   "sha256": "63d689bb628be38f070c54acc0bb92285ba6cdd87f0cd36376ef9e4a29867c3c",
+   "size": 141257336
   }
  },
  "rules": {
