@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T13:30:10.531Z",
+ "generated": "2026-11-07T13:40:02.441Z",
  "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
  "app": {
   "version": "1.0.3",
@@ -11,6 +11,11 @@
    "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.3/Home-and-Hearth-Baker-Setup.exe",
    "sha256": "80ff8a863ad3661a0176731c0efc36189a3b66fc4e5d7c72482865dcafe549a7",
    "size": 141255656
+  },
+  "mac": {
+   "url": "https://downloads.homeandhearthbaker.com/1.0.3/Home-and-Hearth-Baker.dmg",
+   "sha256": "f6e15d3f896e1d4ddc12fc4b784e0a6aab499c2183ff80e82901cd10a2a5b347",
+   "size": 252271846
   }
  },
  "rules": {
