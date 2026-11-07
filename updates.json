@@ -1,16 +1,21 @@
 {
- "generated": "2026-11-06T21:03:00.870Z",
+ "generated": "2026-11-07T13:40:02.441Z",
  "publisher": "Home and Hearth Press, an imprint of Tau Publishing, LLC",
  "app": {
-  "version": "1.0.2",
-  "date": "2026-11-06",
+  "version": "1.0.3",
+  "date": "2026-11-07",
   "notes": [
-   "iPhone photos (HEIC) now work: recipe pages, receipts, your logo and photos sent from your phone are converted automatically as you add them."
+   "Home and Hearth Baker now runs on Mac computers too (macOS 12 or newer). Your license covers up to two computers, Windows or Mac."
   ],
   "win": {
-   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.2/Home-and-Hearth-Baker-Setup.exe",
-   "sha256": "11c22cae4ca736314a2634de903b03bf2f8d678bf1a58c7edf822b0eee037fb8",
-   "size": 141257568
+   "url": "https://github.com/Taupublishing/HomeandHearth-updates/releases/download/v1.0.3/Home-and-Hearth-Baker-Setup.exe",
+   "sha256": "80ff8a863ad3661a0176731c0efc36189a3b66fc4e5d7c72482865dcafe549a7",
+   "size": 141255656
+  },
+  "mac": {
+   "url": "https://downloads.homeandhearthbaker.com/1.0.3/Home-and-Hearth-Baker.dmg",
+   "sha256": "f6e15d3f896e1d4ddc12fc4b784e0a6aab499c2183ff80e82901cd10a2a5b347",
+   "size": 252271846
   }
  },
  "rules": {
